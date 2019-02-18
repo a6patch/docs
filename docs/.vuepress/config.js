@@ -14,12 +14,12 @@ const config = {
       "link",
       {
         rel: "icon",
-        href: "~/assets/qredit-icon.png"
+        href: "/qredit-icon.png"
       }
     ]
   ],
   themeConfig: {
-    logo: "~/assets/qredit-icon.png",
+    logo: "/qredit-icon.png",
     repo: "ArkEcosystem/docs",
     repoLabel: "Contribute!",
     editLinks: true,
