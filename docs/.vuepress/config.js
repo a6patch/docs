@@ -6,20 +6,20 @@ const DOCSPATH = "docs";
 
 
 const config = {
-  title: "Ark Ecosystem Documentation",
-  description: "The central knowledge hub for all things Ark Ecosystem",
+  title: "Qredit Delegates",
+  description: "The central knowledge hub for Qredit Delegates",
   plugins: [ 'tabs' ],
   head: [
     [
       "link",
       {
         rel: "icon",
-        href: "/qredit-icon.png"
+        href: "/qredit-icon2.png"
       }
     ]
   ],
   themeConfig: {
-    logo: "/qredit-icon.png",
+    logo: "/qredit-icon2.png",
     repo: "ArkEcosystem/docs",
     repoLabel: "Contribute!",
     editLinks: true,
