@@ -14,12 +14,12 @@ const config = {
       "link",
       {
         rel: "icon",
-        href: "https://ark.io/images/media-kit/red-corners.png"
+        href: "~/assets/qredit-icon.png"
       }
     ]
   ],
   themeConfig: {
-    logo: "https://ark.io/images/media-kit/red-corners.png",
+    logo: "~/assets/qredit-icon.png",
     repo: "ArkEcosystem/docs",
     repoLabel: "Contribute!",
     editLinks: true,
@@ -36,7 +36,7 @@ const config = {
       text: 'Public API',
       link: '/api/public/v2/'
     },{
-      text: 'SDK Overview',
+      text: 'ARK Docs',
       link: '/SDK/'
     }],
     sidebar: {

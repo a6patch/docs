@@ -1,8 +1,8 @@
 {
-    "name": "@arkecosystem/docs",
-    "description": "Official documentation for the Ark Ecosystem",
+    "name": "@a6patch/docs",
+    "description": "Official documentation for Qredit",
     "contributors": [
-        "Brian Faust <brian@ark.io>"
+        "Kevin Patch <klp@anaconda.net>"
     ],
     "license": "MIT",
     "keywords": [
@@ -15,14 +15,14 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ArkEcosystem/docs.git"
+        "url": "git+https://github.com/a6patch/docs.git"
     },
     "bugs": {
-        "url": "https://github.com/ArkEcosystem/docs/issues"
+        "url": "https://github.com/a6patch/docs/issues"
     },
-    "homepage": "https://github.com/ArkEcosystem/docs",
+    "homepage": "https://github.com/a6patch/docs",
     "scripts": {
-        "dev": "vuepress dev docs",
+        "dev": "vuepress dev --port 8082 docs",
         "build": "vuepress build docs"
     },
     "devDependencies": {
