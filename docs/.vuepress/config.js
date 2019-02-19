@@ -40,19 +40,7 @@ const config = {
       link: 'http://pool.digitalwindmill.com'
     }],
     sidebar: {
-      "/api/json-rpc/": require("./sidebars/api/json-rpc"),
-      "/api/public/": require("./sidebars/api/public"),
-      "/api/": require("./sidebars/api"),
-      "/sdk/": require("./sidebars/sdk"),
-      "/faq/": require("./sidebars/faq"),
-      "/introduction/": require("./sidebars/introduction"),
-      "/tutorials/": require('./sidebars/tutorials'),
-      "/guidebook/": require('./sidebars/guidebook'),
-      "/exchanges/": require('./sidebars/exchanges'),
-      "/releases/": require('./sidebars/releases'),
-      "/security/": require('./sidebars/security'),
-      "/archive/": require('./sidebars/archive'),
-      "/ark/": require('./sidebars/main'),
+      displayAllHeaders: true
     },
     //algolia: {
     //  apiKey: '93e1d829aa41bf2114b9de44dadb4998',
