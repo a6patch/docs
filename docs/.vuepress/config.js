@@ -6,8 +6,8 @@ const DOCSPATH = "docs";
 
 
 const config = {
-  title: "Qredit Delegates",
-  description: "The central knowledge hub for Qredit Delegates",
+  title: "Qredit Delegate Central",
+  description: "The central knowledge hub for Qredit delegates",
   plugins: [ 'tabs' ],
   head: [
     [
@@ -20,7 +20,7 @@ const config = {
   ],
   themeConfig: {
     logo: "/qredit-icon2.png",
-    repo: "ArkEcosystem/docs",
+    repo: "a6patch/docs",
     repoLabel: "Contribute!",
     editLinks: true,
     editLinkText: "Help us improve this page!",
@@ -30,14 +30,14 @@ const config = {
       text: 'Home',
       link: '/'
     }, {
-      text: 'Exchanges',
-      link: '/exchanges/'
+      text: 'Explorer',
+      link: '/'
     }, {
-      text: 'Public API',
-      link: '/api/public/v2/'
+      text: 'Delegate Pool',
+      link: '/'
     },{
       text: 'ARK Docs',
-      link: '/SDK/'
+      link: '/ark/'
     }],
     sidebar: {
       "/api/json-rpc/": require("./sidebars/api/json-rpc"),
@@ -52,7 +52,7 @@ const config = {
       "/releases/": require('./sidebars/releases'),
       "/security/": require('./sidebars/security'),
       "/archive/": require('./sidebars/archive'),
-      "/": require('./sidebars/main'),
+      "/ark/": require('./sidebars/main'),
     },
     //algolia: {
     //  apiKey: '93e1d829aa41bf2114b9de44dadb4998',
