@@ -6,7 +6,7 @@ const DOCSPATH = "docs";
 
 
 const config = {
-  title: "Qredit Delegate Central",
+  title: "Qredit Network",
   description: "The central knowledge hub for Qredit delegates",
   plugins: [ 'tabs' ],
   head: [
@@ -21,23 +21,23 @@ const config = {
   themeConfig: {
     logo: "/qredit-icon2.png",
     repo: "a6patch/docs",
-    repoLabel: "Contribute!",
-    editLinks: true,
-    editLinkText: "Help us improve this page!",
+    xrepoLabel: "Contribute!",
+    xeditLinks: true,
+    xeditLinkText: "Help us improve this page!",
     docsDir: "docs",
     lastUpdated: true,
     nav: [{
-      text: 'Home',
+      text: 'Documentation',
       link: '/'
     }, {
-      text: 'Explorer',
+      text: 'Network Status',
+      link: '/'
+    }, {
+      text: 'Qredit Explorer',
       link: '/'
     }, {
       text: 'Delegate Pool',
       link: '/'
-    },{
-      text: 'ARK Docs',
-      link: '/ark/'
     }],
     sidebar: {
       "/api/json-rpc/": require("./sidebars/api/json-rpc"),
