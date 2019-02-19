@@ -20,7 +20,7 @@ const config = {
   ],
   themeConfig: {
     logo: "/qredit-icon2.png",
-    repo: "a6patch/docs",
+    xrepo: "a6patch/docs",
     xrepoLabel: "Contribute!",
     xeditLinks: true,
     xeditLinkText: "Help us improve this page!",
@@ -31,13 +31,13 @@ const config = {
       link: '/'
     }, {
       text: 'Network Status',
-      link: '/'
+      link: 'http://xqr-status.digitalwindmill.com'
     }, {
       text: 'Qredit Explorer',
-      link: '/'
+      link: 'http://qredit.digitalwindmill.com'
     }, {
       text: 'Delegate Pool',
-      link: '/'
+      link: 'http://pool.digitalwindmill.com'
     }],
     sidebar: {
       "/api/json-rpc/": require("./sidebars/api/json-rpc"),
