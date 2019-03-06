@@ -33,13 +33,11 @@ const config = {
       text: 'Network Status',
       link: 'http://xqr-status.digitalwindmill.com'
     }, {
-      text: 'Qredit Explorer',
-      link: 'http://qredit.digitalwindmill.com'
-    }, {
-      text: 'Delegate Pool',
-      link: 'http://pool.digitalwindmill.com'
+      text: 'Delegate Central',
+      link: 'https://qredit.network'
     }],
     sidebar: {
+      "/": require('./sidebars/main'),
       displayAllHeaders: true
     },
     //algolia: {

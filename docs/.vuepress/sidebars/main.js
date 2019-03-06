@@ -4,17 +4,9 @@ module.exports = [
     title: "Table of Contents",
     collapsable: false,
     children: [
-      '/introduction/',
-      '/guidebook/',
-      '/tutorials/',
-      '/exchanges/',
-      '/api/',
-      '/sdk/',
-      '/releases/',
-      '/security/',
-      '/faq/',
-      '/glossary/',
-      '/archive/',
+      '/install-qredit-relay-node',
+      '/install-qredit-forging-node',
+      '/install-tbw-payment-script',
     ]
   }
 ]
