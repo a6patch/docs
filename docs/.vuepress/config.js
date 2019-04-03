@@ -37,12 +37,7 @@ const config = {
       link: 'https://qredit.network'
     }],
     sidebar: {
-      "/": {
-        collapsable: false,
-        children: [
-          '/install-qredit-relay-node',
-        ]
-      },
+      "/": require('./sidebars/main'),
       displayAllHeaders: true
     },
     //algolia: {
