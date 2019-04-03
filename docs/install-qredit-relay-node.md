@@ -1,4 +1,4 @@
-### Notes
+## Install Qredit Relay/Forger Node
 
 For V2, we recommend only using Ubuntu 18.04.
 For an optimal P2P connection, we like all nodes to be located in Europe.
