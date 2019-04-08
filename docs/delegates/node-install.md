@@ -20,7 +20,7 @@ sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -
 
 3. Enter the following commands, executing them one by one, to add new user
 ```bash
-adduser qredit
+sudo adduser qredit
 sudo usermod -aG sudo qredit
 sudo reboot
 ```
