@@ -2,7 +2,7 @@
 title: Automatic Sharing with TBW
 ---
 
-### Notes
+### Automatic Sharing with TBW
 
 This is for setting up a TBW (true block weight) sharing delegate.  TBW is an accurate way of calculating rewards and it cannot be fooled with vote jumping like other methods.
 
