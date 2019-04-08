@@ -7,7 +7,7 @@
 ## Development
 
 ```
-git clone https://github.com/arkecosystem/docs
+git clone https://github.com/a6patch/docs
 cd docs
 yarn install
 yarn dev
