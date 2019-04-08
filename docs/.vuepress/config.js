@@ -7,7 +7,7 @@ const DOCSPATH = "docs";
 
 const config = {
   title: "Qredit Network",
-  description: "The central knowledge hub for Qredit delegates",
+  description: "The central knowledge hub for Qredit blockchain",
   plugins: [ 'tabs' ],
   head: [
     [
@@ -36,8 +36,36 @@ const config = {
       text: 'Delegate Central',
       link: 'https://qredit.network'
     }],
-    sidebar: {
-      "/": require('./sidebars/main'),
+    sidebar: { 
+        '/':  [['/', 'Qredit Overview'],
+              {
+                title: "Delegates",
+                collapsable: false,
+                children: [
+                    "/delegates/",
+                  "/delegates/node-install",
+                  "/delegates/payouts",
+                ]
+              }, {
+                title: "Voting",
+                collapsable: false,
+                children: [
+                  "/voting/",
+                  "/voting/how-to-vote",
+                ]
+              }, {
+                title: "Exchanges",
+                collapsable: false,
+                children: [
+                  "/exchanges/",
+                ]
+              }, {
+                title: "Merchants",
+                collapsable: false,
+                children: [
+                  "/merchants/",
+                ]
+              }],
       displayAllHeaders: false
     },
     //algolia: {
