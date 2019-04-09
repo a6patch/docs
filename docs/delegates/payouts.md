@@ -18,7 +18,7 @@ sudo su - qredit
 ```
 3. Install the TBW script (Qredit currently running ARK 2.1)
 ```bash
-git clone https://github.com/galperins4/core2_tbw --branch 2.1.2
+git clone https://github.com/galperins4/core2_tbw --branch qredit_mainnet
 cd ~/core2_tbw/config
 ```
 4. Open and fill out the config.json file
@@ -28,7 +28,7 @@ nano config.json
 
 ```json
 {
-  "start_block": 2100000,
+  "start_block": current blockheight,
   "network": "qredit_mainnet",
   "delegate_ip": "ip",
   "dbusername": "qredit",
