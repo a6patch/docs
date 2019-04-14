@@ -71,20 +71,20 @@ The un-voting fee selection process is the same as described above for voting. S
 
 Un-voting modal
 
-The last step is to review the transaction information and press the Send button. You also have the option to go Back to the previous screen or Save the signed transaction in JSON format (for advanced users).
+The last step is to review the transaction information and press the **_Send_** button. You also have the option to go Back to the previous screen or Save the signed transaction in JSON format (for advanced users).
 
-Confirmation window
+![Confirmation window](./assets/how-to-vote-in-the-ark-desktop-wallet/unvotedelegate.jpg)
 
 You’re done! You should get a message in the lower left corner stating that the un-voting transaction was broadcasted successfully.
 
-Un-Voted successfully
+![Un-Voted successfully](./assets/how-to-vote-in-the-ark-desktop-wallet/unvotedsuccessfully.jpg)
 
 Now, to see if your transaction was confirmed, click on the refresh button in the menu to update the window and see a new transaction in your wallet.
 
-Click on refresh
+![Click on refresh](./assets/how-to-vote-in-the-ark-desktop-wallet/clickonrefresh.jpg)
 
 The un-voting transaction now shows in your list of transactions. You can hover over the clock to see the number of confirmations for that transaction. One or more confirmations means your un-voting transaction was successfully included in the block.
 
-Hover over
+![Hover over](./assets/how-to-vote-in-the-ark-desktop-wallet/hoveroverunvote.jpg)
 
-To cast a vote for newly selected delegate scroll back to the Voting section of this article and repeat those steps.
+To cast a vote for newly selected delegate scroll back to the **_Voting_** section of this article and repeat those steps.
