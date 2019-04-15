@@ -52,7 +52,7 @@ const config = {
                 children: [
                   "/voting/",
                   "/voting/how-to-vote-qredit-desktop-wallet",
-                  "/voting/how to use-qredit-mobile-wallet",
+                  "/voting/how-to-use-qredit-mobile-wallet",
                 ]
               }, {
                 title: "Exchanges",
