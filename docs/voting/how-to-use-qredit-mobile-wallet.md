@@ -8,19 +8,19 @@ The application is built using the Ionic Framework, which enables the code base 
 
 Like any useful application, you will be able to find the Qredit Mobile Wallet application in your phone's store. It is entirely free to download and use.
 
-Download the wallet from the [App Store](https://itunes.apple.com/us/app/mobile-ark/id1324625967?ls=1&mt=8) or the [Google Play Store](https://play.google.com/store/apps/details?id=io.ark.wallet.mobile).
+Download the wallet from the [App Store](http://qredit.io/go/ios) or the [Google Play Store](https://qredit.io/go/android).
 
 ## Starting the Qredit Wallet
 
 Once you load the application you will be met with this screen:
 
-![Image of ARK Welcome Screen](./assets/how-to-use-the-mobile-wallet/arkWallet.png)
+![Image of Qredit Welcome Screen](./assets/how-to-use-the-mobile-wallet/01_Welcome_to_Qredit.png)
 
 The content of each slide shares some details about some security and usability features of the app.
 
 After reading through the welcome slides, you will be able to create a profile.
 
-![Create a Profile on ARK Mobile Wallet](./assets/how-to-use-the-mobile-wallet/arkWallet4.png)
+![Create a Profile on Qredit Mobile Wallet](./assets/how-to-use-the-mobile-wallet/02_Create_Qredit_Mobile_Wallet.jpg)
 
 After you hit the **_Create A Profile_** button, you will be prompted to create a six-digit PIN confirm it afterward.
 
@@ -28,11 +28,11 @@ After you hit the **_Create A Profile_** button, you will be prompted to create 
 It is imperative that you remember this PIN.
 :::
 
-![Create a Pin on ARK Mobile Wallet](./assets/how-to-use-the-mobile-wallet/arkWallet5.png)
+![Create a Pin on Qredit Mobile Wallet](./assets/how-to-use-the-mobile-wallet/03_Create_Pin.jpg)
 
 Your new profile must then be assigned a name and a network. Mainnet is the one where your XQR will be sent to and from. The Devnet is used for team members and contributors wishing to test additional functionality and should not be used. The remainder of this document assumes you've created a profile that uses the Mainnet.
 
-![Create a Name on ARK Mobile Wallet](./assets/how-to-use-the-mobile-wallet/arkWallet6.png)
+![Create a Profile in Qredit Mobile Wallet](./assets/how-to-use-the-mobile-wallet/04_Create_Profile.jpg)
 
 Once you have entered your name, you can sign in by touching the profile you created and by entering the PIN you created earlier. From there, you can click on the bottom-right button to either create or import a wallet. If you are importing a wallet, click [here](#importing-a-wallet). If you are creating a new wallet, continue reading.
 
@@ -40,25 +40,30 @@ Once you have entered your name, you can sign in by touching the profile you cre
 
 If you choose to generate a wallet, follow the prompts and you should be shown your shareable Public Address and your Secret Passphrase.
 
+![Qredit Generate/Import Mobile Wallet](./assets/how-to-use-the-mobile-wallet/05_Generate_Import_Wallet.jpg)
+![Qredit Wallet Generate Entropy](./assets/how-to-use-the-mobile-wallet/06_Generate_Entropy.jpg)
+
 ::: warning
-Keep your secret passphrase safe and secure, without it, you will not be able to restore your wallet, and you will lose all of your XQR coins.
+Keep your secret passphrase safe and secure, without it, you will not be able to restore your wallet, and you will lose access to your XQR coins.
 :::
 
 After hitting **_Next_**, you will be asked to verify your Secret Passphrase. Your PIN will be required to encrypt your address.
 
+![Qredit Mobile Wallet Passphrase](./assets/how-to-use-the-mobile-wallet/07_Validate_Passphrase.jpg)
+
 The next screen will show you the amount of XQR you have in your wallets, your shareable Public Address, the Market Value of XQR in USD, Satoshis, and the 24-hour Change.
 
-![ARK Mobile Wallet Passphrase](./assets/how-to-use-the-mobile-wallet/arkWallet8.png) ![ARK Mobile Wallet Balance](./assets/how-to-use-the-mobile-wallet/arkWallet9.png)
+![Qredit Mobile Wallet Balance](./assets/how-to-use-the-mobile-wallet/08_Qredit_Mobile_Balance.jpg)
 
 ## Importing a wallet
 
-If you choose to import a wallet and follow the prompts, you will have two options to import your wallet: QR Code or by putting in your secret passphrase or address manually.
+If you choose to import a wallet and follow the prompts, you will have three options to import your wallet: Using a QR Code, by putting in your secret passphrase or to add your address. Please note that the last option will make the wallet Read-only, since the app doesnt know the private key.
+
+![Qredit Mobile Wallet Import](./assets/how-to-use-the-mobile-wallet/09_Qredit_Mobile_Import.jpg)
 
 ::: warning
 If you decide to copy and paste your information into the app, make sure your device does not add a space after your passphrase or address. If a space is there, it will create a new wallet and not import your wallet.
 :::
-
-![ARK Mobile Wallet Transactions](./assets/how-to-use-the-mobile-wallet/arkWallet10.png)
 
 ## The Qredit Wallet
 
@@ -82,13 +87,14 @@ If you hit the triple bar on the top left corner, you get numerous options where
   - You can save contacts by name and Qredit address for quicker sending/receiving
 - Sign Out
 
-![ARK Mobile Wallet Triple Bar](./assets/how-to-use-the-mobile-wallet/arkWallet13.png) ![ARK Mobile Wallet Settings](./assets/how-to-use-the-mobile-wallet/arkWallet12.png)
+![Qredit Mobile Wallet Side Menu](./assets/how-to-use-the-mobile-wallet/10_Qredit_Mobile_Side_Menu.jpg) 
+![Qredit Mobile Wallet Settings](./assets/how-to-use-the-mobile-wallet/11_Qredit_Mobile_Settings.jpg)
 
 If you want to view an existing wallet and the transaction history, you will need to touch the rectangle(s) right below the **_Total Balance_** text.
 
-![ARK Mobile Wallet Balance](./assets/how-to-use-the-mobile-wallet/arkWallet14.png)
+![Qredit Mobile Wallet Balance](./assets/how-to-use-the-mobile-wallet/08_Qredit_Mobile_Balance.jpg)
 
-Once inside a wallet, you can view incoming and receiving transaction history, the public address, the Qredit wallet balance and by touching the vertical ellipsis you can:
+Once inside a wallet, you can view incoming and receiving transaction history, the public address, the Qredit wallet balance. By touching the triple dots menu in the top left corner you can:
 
 - Register a Delegate
 - Vote for a Delegate
@@ -96,23 +102,23 @@ Once inside a wallet, you can view incoming and receiving transaction history, t
 - Backup your Wallet
 - Delete your wallet
 
-![ARK Mobile Wallet Subsettings](./assets/how-to-use-the-mobile-wallet/arkWallet15.png)
+![Qredit Mobile Wallet Subsettings](./assets/how-to-use-the-mobile-wallet/12_Qredit_Mobile_Subsettings.jpg)
 
 ## Voting
 
-To begin voting, we need XQR in our wallets. Once you have transferred XQR to your wallet, you will want to click on the wallet that was either imported or generated.
+To begin voting, we need XQR in our wallets. Once you have transferred XQR to your wallet, you will want to click on the wallet that was either imported or generated. Once the wallet has been selected, hit the triple bar and choose **_Delegates_**. This will show you the top 51 Active Delegates and the delegates on standby
 
-![ARK Mobile Wallet Balance](./assets/how-to-use-the-mobile-wallet/arkWallet14.png)
+![Qredit Mobile Active Delegates](./assets/how-to-use-the-mobile-wallet/13_Qredit_Mobile_Active_Delegates.jpg)
+![Qredit Mobile Standby Delegates](./assets/how-to-use-the-mobile-wallet/14_Qredit_Mobile_Standby_Delegates.jpg)
 
-Once the wallet has been selected, hit the triple bar and choose **_Delegates_**. This will show you the top 51 Active Delegates and the delegates on standby
+Choosing a Delegate will prompt you to vote for it. You can select a dynamic fee in this screen. 
 
-![ARK Mobile Wallet Balance](./assets/how-to-use-the-mobile-wallet/arkWallet16.png)
-![ARK Mobile Wallet Balance](./assets/how-to-use-the-mobile-wallet/arkWallet17.png)
+::: warning
+Please note that the delegate in this screen was selected randomly, and is not an advise. Please choose the delegate that is best suited for you.
+:::
 
-Choosing a Delegate will prompt you to vote for 1 XQR.
-
-![ARK Mobile Wallet Balance](./assets/how-to-use-the-mobile-wallet/arkWallet18.png)
+![Qredit Mobile Select Delegate](./assets/how-to-use-the-mobile-wallet/15_Qredit_Mobile_Select_Delegate.jpg)
 
 ## Conclusion
 
-Your Qredit Mobile Wallet is now ready for use! That's all it takes to install the Qredit wallet.
+Your Qredit Mobile Wallet is now ready for use! That's all it takes to install the Qredit wallet and vote for a Delegate of your choice.
