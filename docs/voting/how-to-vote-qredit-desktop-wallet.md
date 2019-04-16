@@ -4,9 +4,9 @@ You can use your XQR to vote or un-vote a delegate. In this guide, we’ll show 
 
 Some basic voting info :
 
-- _One Qredit address can vote for only one delegate at a time. If you wish to vote for more than one delegate you can create multiple wallets, split your XQR among those wallets and vote for a different delegate with each wallet. For example, if you have 1000 XQR, you can vote for one delegate with all of your XQR in one wallet, or you can divide your XQR into two wallets of 500 XQR each and vote for two different delegates. You can create as many wallets as you want and divide your XQR among them in any proportion you choose.
-- _One XQR equals a voting weight of 1. The more XQR you hold, the more voting weight you possess. If you split your XQR into multiple wallets, your voting power divides proportionally among those wallets. For example, if you have 1,000 XQR your voting power is equal to 1,000 XQR. If you split your XQR into two wallets, each will have a voting power of 500 XQR.
-- _Each vote or un-vote comes with a fee. Each transaction in the XQR network costs a certain amount of XQR. With the implementation of dynamic fees, this cost has become adjustable. You can choose how much you want to spend for each specific transaction, even for voting and for un-voting.
+- One Qredit address can vote for only one delegate at a time. If you wish to vote for more than one delegate you can create multiple wallets, split your XQR among those wallets and vote for a different delegate with each wallet. For example, if you have 1000 XQR, you can vote for one delegate with all of your XQR in one wallet, or you can divide your XQR into two wallets of 500 XQR each and vote for two different delegates. You can create as many wallets as you want and divide your XQR among them in any proportion you choose.
+- One XQR equals a voting weight of 1. The more XQR you hold, the more voting weight you possess. If you split your XQR into multiple wallets, your voting power divides proportionally among those wallets. For example, if you have 1,000 XQR your voting power is equal to 1,000 XQR. If you split your XQR into two wallets, each will have a voting power of 500 XQR.
+- Each vote or un-vote comes with a fee. Each transaction in the XQR network costs a certain amount of XQR. With the implementation of dynamic fees, this cost has become adjustable. You can choose how much you want to spend for each specific transaction, even for voting and for un-voting.
 
 ## Whom to Vote for?
 
