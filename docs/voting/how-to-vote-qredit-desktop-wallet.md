@@ -40,7 +40,7 @@ The final step is to review the transaction information and press the **_Send_**
 
 That’s it! A message in the lower left corner tells you that the transaction was broadcasted successfully.
 
-![Voted successfully](./assets/how-to-vote-in-the-ark-desktop-wallet/7_votedsuccessfully)
+![Voted successfully](./assets/how-to-vote-in-the-ark-desktop-wallet/7_votedsuccessfully.jpg)
 
 Now you can see if your transaction was confirmed. Clicking on the refresh button shows that there is a new transaction in your wallet.
 
