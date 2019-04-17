@@ -64,4 +64,4 @@ ccontrol start all
 
 After that, your node should start the resync. As always, you can check the progress in the logs.
 
-In the rear that case all of the above steps did not work, it is smart to ask the Qredit Delegate Community if they have any ideas left to solve the offline status of your node.
+In the rare that case all of the above steps did not work, it is smart to ask the Qredit Delegate Community if they have any ideas left to solve the offline status of your node.
