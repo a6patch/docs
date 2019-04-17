@@ -46,7 +46,7 @@ const config = {
                   "/delegates/node-install",
                   "/delegates/red-node-fix",
                   "/delegates/payouts",
-                  ]
+                    ]
               }, {
                 title: "Voting",
                 collapsable: false,
