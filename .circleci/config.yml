@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/docs
+    working_directory: ~/qdocks
     docker:
       - image: circleci/node:latest
     steps:
