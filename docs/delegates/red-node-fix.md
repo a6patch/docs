@@ -33,7 +33,7 @@ yarn rollback:mainnet --height xxxxxxx
 ccontrol start all
 ```
 
-.Now, the chain will roll back to your select height, and start syncing from that point again. Check the logs to see if you are back in sync again/
+Now, the chain will roll back to your select height, and start syncing from that point again. Check the logs to see if you are back in sync again.
 ```
 ccontrol logs
 ```

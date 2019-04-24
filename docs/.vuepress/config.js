@@ -52,6 +52,7 @@ const config = {
                 collapsable: false,
                 children: [
                   "/voting/",
+                  "/voting/qredit-dpos-explained",
                   "/voting/how-to-vote-qredit-desktop-wallet",
                   "/voting/how-to-use-qredit-mobile-wallet",
                 ]
