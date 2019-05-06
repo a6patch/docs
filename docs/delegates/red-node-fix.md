@@ -27,10 +27,9 @@ First, navigate to the snapshots-cli folder, and stop the node processes.
 cd ~/qredit-core/packages/core-snapshots-cli
 ccontrol stop all
 
-Now, select a blockheight that was before your node forked off. Put that blockheight in after --height, without seperation dots. After that, start the processes again. 
+Now, select a blockheight that was before your node forked off. Replace [BLOCKHEIGHT] for the chosen blockheight, without seperation dots. To check the current blockheight, check https://explorer.qredit.io
 ```
-yarn rollback:mainnet --height xxxxxxx
-ccontrol start all
+ccontrol rollback [BLOCKHEIGHT]
 ```
 
 Now, the chain will roll back to your select height, and start syncing from that point again. Check the logs to see if you are back in sync again.
@@ -55,10 +54,8 @@ Check the logs again, just as in the previous steps. Your node should be catchin
 ### Step 4) Rebuild the Database
 
 This is the nucleair option. It will delete your copy of the blockchain and force a complete resync. This resync will take a couple of hours to complete, and all this time, your node will stay red. Use it as a last resort.
-This step will first stop the running services. Then it will erase the current database and create a new, empty one. The last command will start the services again and initialize the syncing.
 ```
-ccontrol stop all
-dropdb qredit_mainnet && createdb qredit_mainnet
+ccontrol database clear
 ccontrol start all
 ```
 

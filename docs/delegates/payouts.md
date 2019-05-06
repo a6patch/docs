@@ -4,7 +4,7 @@ title: Automatic Sharing with TBW
 
 ### Automatic Sharing with TBW
 
-This is for setting up a TBW (true block weight) sharing delegate.  TBW is an accurate way of calculating rewards and it cannot be fooled with vote jumping like other methods.
+This is for setting up a TBW (true block weight) sharing delegate.  TBW is an accurate way of calculating rewards and it cannot be fooled with vote jumping like other methods. The TBW script we are using in this guide is written by delegate Goose.
 
 ### Setup
 
@@ -12,18 +12,21 @@ This is for setting up a TBW (true block weight) sharing delegate.  TBW is an ac
 ```bash
 sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
 ```
+
 2. Switch to qredit user (or whatever user you used...we recommend qredit for consistancy)
 ```bash
 sudo su - qredit
 ```
-3. Install the TBW script (Qredit currently running ARK 2.1)
+
+3. Install the TBW script (Qredit currently running ARK-Core 2.3)
 ```bash
-git clone https://github.com/galperins4/core2_tbw --branch qredit_mainnet
-cd ~/core2_tbw/config
+git clone https://github.com/galperins4/core2_tbw
+cd ~/core2_tbw/core/config
 ```
+
 4. Open and fill out the config.json file
 ```bash
-nano config.json
+nano config
 ```
 
 ```json
@@ -86,9 +89,10 @@ nano config.json
 
 5. After editing all the necessary fields
 ```bash
-Ctrl+x
+Ctrl+O
 Y to save changes
 ENTER to confirm file name
+Cntrl+X
 ```
 
 6. After configuring the config.json file, you need to run the tbw script and install required packages

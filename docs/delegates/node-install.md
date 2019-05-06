@@ -21,7 +21,7 @@ sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -
 3. Enter the following commands, executing them one by one, to add new user
 ```
 sudo adduser qredit
-sudo usermod -aG sudo qredit
+sudo usermod -a -G sudo qredit
 ```
 
 4. Disable root access for your system (for increased security); enter the following command
@@ -47,6 +47,11 @@ sudo reboot
 su - qredit
 ```
 
+*OPTIONAL* If you have a locally maintained snapshot, this is the time to restore it. Place the snapshot in ~/snapshots, with the format "qredit_mainnet". Then run this command:
+```
+ccontrol snapshot restore
+```
+
 7. Command used in this step will start a relay and sync your node to current blockchain height. This step will take up to few hours, depending on your VPS setup and block height.
 ```
 ccontrol start relay
@@ -64,11 +69,11 @@ ccontrol snapshot create
 
 10. After the relay is caught up with current height, it’s time to enter the secret and start the forger
 ```
-control secret set [12-word-bip32-secret-phrase, each word divided by space]
+ccontrol secret set [12-word-bip32-secret-phrase, each word divided by space]
 ccontrol start forger
 ```
 
-11. Optionally, clear bash shell history to remove info about entered secret with the following command:
+11. Clear bash shell history to remove info about entered secret with the following command:
 ```bash
 history -c
 ```
