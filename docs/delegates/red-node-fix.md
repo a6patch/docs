@@ -21,18 +21,14 @@ ccontrol logs
 
 ### Step 2) Rollback the Blockchain
 
-When the first step didn't work, you should try to Rollback the chain a bit, to a point before your node forked. We will use the snapshot-client for this.
+When the first step didn't work, you should try to Rollback the chain a bit, to a point before your node forked. 
 
-First, navigate to the snapshots-cli folder, and stop the node processes. 
-cd ~/qredit-core/packages/core-snapshots-cli
-ccontrol stop all
-
-Now, select a blockheight that was before your node forked off. Replace [BLOCKHEIGHT] for the chosen blockheight, without seperation dots. To check the current blockheight, check https://explorer.qredit.io
+Select a blockheight that was before your node forked off. Replace [BLOCKHEIGHT] for the chosen blockheight, without seperation dots. To check the current blockheight, check https://explorer.qredit.io
 ```
 ccontrol rollback [BLOCKHEIGHT]
 ```
 
-Now, the chain will roll back to your select height, and start syncing from that point again. Check the logs to see if you are back in sync again.
+Now, the chain will roll back to your selected height, and start syncing from that point forward again. Check the logs to see if you are back in sync again.
 ```
 ccontrol logs
 ```
