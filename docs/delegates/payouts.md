@@ -30,62 +30,78 @@ nano config
 ```
 
 ```json
-{
-  "start_block": current blockheight,
-  "network": "qredit_mainnet",
-  "delegate_ip": "ip",
-  "dbusername": "qredit",
-  "username": "delegate_name",
-  "publicKey": "delegate_publickey",
-  "interval": 211,
-  "voter_share": 0.60,
-  "passphrase": "SECRET",
-  "secondphrase": "None",
-  "voter_msg": "Delegate delegate_name - True Block Weight",
-  "block_check": 30,
-  "cover_tx_fees": "Y",
-  "vote_cap" : 0,
-  "vote_min" : 0,
-  "fixed": {},
-  "whitelist" : "N",
-  "whitelist_addr" : ["addr"],
-  "blacklist": "block",
-  "blacklist_addr" : ["addr"],
-  "blacklist_assign" : "addr",
-  "min_payment": 1.0,
-  "keep": {
-    "reserve": 0.40
-  },
-  "pay_addresses": {
-    "reserve": "reserve_address"
-  }
-}
-```
+# atomic
+ATOMIC = 100000000
+
+# true block weight
+START_BLOCK = current blockheight
+NETWORK = "qredit_mainnet"
+DATABASE_USER = "dbname"
+DELEGATE = "delegate"
+PUBLIC_KEY = "delegate publicKey"
+INTERVAL = 211
+VOTER_SHARE = 0.50
+PASSPHRASE = "passphrase"
+SECONDPHRASE = "None"
+VOTER_MSG = "Delegate X - True Block Weight"
+BLOCK_CHECK = 30
+COVER_TX_FEE = "Y"
+VOTE_CAP = 0
+VOTE_MIN = 0
+FIXED = "addr1:0,addr2:0"
+WHITELIST = "N"
+WHITELIST_ADDR = "addr1,addr2,addr3"
+BLACKLIST = "block"
+BLACKLIST_ADDR = "addr1,addr2,addr3"
+BLACKLIST_ASSIGN = "addr"
+MIN_PAYMENT = 0.5
+KEEP = "reserve:0.25,second:0.25"
+PAY_ADDRESSES = "reserve:addr1,second:addr2"
+
+# pool
+POOL_IP = "xx.xx.xx.xx"
+EXPLORER = "https://explorer.qredit.io/"
+COIN = "XQR"
+PROPOSAL = "https://xx.xx.xx/"
+POOL_PORT = 5000
+CUSTOM_PORT = 5004
+POOL_VERSION = "original"
 
 ### Fields
-- start_block: You can select block at which you want to start sharing rewards.  This is IMPORTANT to get right.  To start the rewards *right now*, just check the explorer for the current block height. 
-- network: Which network
-- delegate_ip: IP of your VPS
-- dbusername: Usually your OS username (qredit)
-- publicKey: Public key of your delegate wallet
-- interval: Payment interval every X blocks
-- voter_share: Percentage to share with voters (0.xx format) 
-- passphrase: Delegate passphrase
-- secondphrase: Delegate second passphrase (only if you set one up...or None)
-- voter_msg: Custom message for your voters
-- block_check: How often you want the script to check for new blocks in seconds 
-- cover_tx_fees: Use this to indicate if you want to cover transaction fees
-- vote_cap: Use this if you cap voters for how much they can earn with votes 
-- vote_min: Use this if you have a minimum wallet balance to be eligible for payments 
-- fixed: Use this for fixed deals. This amount will be spread evenly over the set interval 
-- whitelist: Y or N. Enable payment to only whitelisted addresses
-- whitelist_addr: Comma separated list of addresses to allow voter payments to 
-- blacklist: Details at: https://github.com/galperins4/core2_tbw
-- blacklist_addr: Comma separated list of addresses to block from voter payments 
-- blacklist_assign: Details at: https://github.com/galperins4/core2_tbw 
-- min_payment: Minimum threshold for payment
-- keep.reserve: Percentage to NOT share with voters (0.xx format) 
-- pay_addresses.reserve: Reserve address (must be set, do not remove)
+- START_BLOCK: You can select block at which you want to start sharing rewards.  This is IMPORTANT to get right.  To start the rewards *right now*, just check the explorer for the current block height. 
+- NETWORK: Which network
+- DATABASE_USER: Usually your OS username (qredit)
+- DELEGATE = The Name of the Delegate you are setting up TBW for
+- PUBLIC_KEY: Public key of your delegate wallet. Important: this is not the same as your Public Address
+- INTERVAL: Payment interval every X blocks. Select 211 for Daily, or 1477 for Weekly payouts
+- VOTER_SHARE: Percentage to share with voters (0.xx format) 
+- PASSPHRASE: Your 12 word Delegate passphrase
+- SECONDPHRASE: Delegate second passphrase (only if you set one up...or None)
+- VOTER_MSG: Custom Smartbridge message for your voters
+- BLOCK_CHECK: How often you want the script to check for new blocks in seconds 
+- COVER_TX_FEE: Use this to indicate if you want to cover transaction fees
+- VOTE_CAP: Use this if you cap voters for how much they can earn with votes 
+- VOTE_MIN: Use this if you have a minimum wallet balance to be eligible for payments 
+- FIXED: Use this for fixed deals. This amount will be spread evenly over the set interval 
+- WHITELIST: Y or N. Enable payment to only whitelisted addresses
+- WHITELIST_ADDR: Comma separated list of addresses to allow voter payments to 
+- BLACKLIST: Opions to "block" (ignore) a wallet, or to "assign" the rewards to another wallet
+- BLACKLIST_ADDR: Comma separated list of addresses to block from voter payments 
+- BLACKLIST_ASSIGN: Address you want the blacklisted wallets share to go to
+- MIN_PAYMENT: Minimum threshold for payment
+- KEEP: Percentage that will be paid to the Delegate (0.xx format)
+- PAY_ADDRESSES: Reserve address (must be set, do not remove)
+
+Important: VOTER_SHARE and KEEP percentages combined must be 100% (1.00)
+
+If you want to setup a pool page (leave it as is if you do not): 
+POOL_IP: Ip address of the node that is running the TBW script
+EXPLORER: URL of the explorer you want to use
+COIN: Name of the coin that is being shared
+PROPOSAL: URL if you arew running a pool page
+POOL_PORT: Ports that are being used to access the database
+CUSTOM_PORT: 
+POOL_VERSION: User Interface of the poolpage. You can choose "original" and "geops"
 
 5. After editing all the necessary fields
 ```bash
@@ -103,12 +119,14 @@ bash tbw.sh
 -Select 2 (Initialize)
 -Select 4 (Start TBW only)
 -Select 5 (Start Pay only)
+-Select 7 (Start Pool only) (Optional; only if you configured it)
 ```
 
 ### IMPORTANT
 
 If at any time you wish to change your share rate you must stop TBW, update your config.json and run the following command
 ```bash
- python3 tbw.py –shareChange
+cd ~/core2_tbw/core
+python3 tbw.py –shareChange
 ```
 The script will ask for the prior share percentage, enter it like this "0.75" if you are changing *from* 75%
