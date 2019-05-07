@@ -24,17 +24,12 @@ sudo adduser qredit
 sudo usermod -a -G sudo qredit
 ```
 
-4. Disable root access for your system (for increased security); enter the following command
-```
-sudo passwd -l root
-```
-
-5. Switch to your newly created user (qredit)
+4. Switch to your newly created user (qredit)
 ``` 
 su - qredit
 ```
 
-6. The following are core-control installation commands, execute them one by one
+5. The following are core-control installation commands, execute them one by one
 ``` 
 git clone https://github.com/qredit/core-control
 cd core-control
@@ -52,28 +47,28 @@ su - qredit
 ccontrol snapshot restore
 ```
 
-7. Command used in this step will start a relay and sync your node to current blockchain height. This step will take up to few hours, depending on your VPS setup and block height.
+6. Command used in this step will start a relay and sync your node to current blockchain height. This step will take up to few hours, depending on your VPS setup and block height.
 ```
 ccontrol start relay
 ```
 
-8. After the relay is started you can check the synchronization progress with the following command. You can check current blockchain height by going to https://explorer.qredit.io/#/ and clicking on “latest blocks” tab. Latest downloaded blocks in relay logs will show as “Downloading blocks from height...”
+7. After the relay is started you can check the synchronization progress with the following command. You can check current blockchain height by going to https://explorer.qredit.io/#/ and clicking on “latest blocks” tab. Latest downloaded blocks in relay logs will show as “Downloading blocks from height...”
 ```
 ccontrol logs relay
 ```
 
-9. Optional (but highly recommended), you can create a snapshot when the relay finishes synchronization, to restore your node in case of problems
+8. Optional (but highly recommended), you can create a snapshot when the relay finishes synchronization, to restore your node in case of problems
 ```
 ccontrol snapshot create
 ```
 
-10. After the relay is caught up with current height, it’s time to enter the secret and start the forger
+9. After the relay is caught up with current height, it’s time to enter the secret and start the forger
 ```
 ccontrol secret set [12-word-bip32-secret-phrase, each word divided by space]
 ccontrol start forger
 ```
 
-11. Clear bash shell history to remove info about entered secret with the following command:
+10. Clear bash shell history to remove info about entered secret with the following command:
 ```bash
 history -c
 ```
@@ -82,6 +77,13 @@ You’re all set. You can check forger logs with the following command:
 ```bash
 ccontrol logs forger
 ```
+
+If your want your all of your (currently running) pm2 processes to start up in case your server (accidently) reboots, run the following commands:
+```
+pm2 save
+pm2 startup
+```
+The last command will echo a command back. Copy, paste and run that command.
 
 When you install a Qredit Full Node using CoreControl, it automatically sets an UFW Firewall, only allowing the neccesary ports for Qredit (which are port 22 for SSH access, and ports 4101-4108 for the Qredit processes). 
 When / if you are using the server for other things, please remember to open the necessary ports.
