@@ -15,7 +15,7 @@ sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -
 
 2. Switch to qredit user (or whatever user you used...we recommend qredit for consistancy)
 ```bash
-sudo su - qredit
+su - qredit
 ```
 
 3. Install the TBW script (Qredit currently running ARK-Core 2.3)
