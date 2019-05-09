@@ -10,8 +10,7 @@ For an optimal P2P connection, we like all nodes to be located in Europe.
 
 ### Setup
 
-1. Log in to your VPS.  Recommended terminal to use is Termius, Available for iOS, Android, macOS, Windows and Linux
-(https://www.termius.com/)  
+1. Log in to your VPS
 
 2. Enter the following command to apply the latest updates to your system
 ```
@@ -62,7 +61,8 @@ ccontrol logs relay
 ccontrol snapshot create
 ```
 
-9. After the relay is caught up with current height, it’s time to enter the secret and start the forger
+9. After the relay is caught up with current height, it’s time to enter the secret and start the forger. 
+IMPORTANT: Do not enter the brackets
 ```
 ccontrol secret set [12-word-bip32-secret-phrase, each word divided by space]
 ccontrol start forger

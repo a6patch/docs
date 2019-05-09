@@ -66,6 +66,7 @@ PROPOSAL = "https://xx.xx.xx/"
 POOL_PORT = 5000
 CUSTOM_PORT = 5004
 POOL_VERSION = "original"
+```
 
 ### Fields
 - START_BLOCK: You can select block at which you want to start sharing rewards.  This is IMPORTANT to get right.  To start the rewards *right now*, just check the explorer for the current block height. 
@@ -92,7 +93,7 @@ POOL_VERSION = "original"
 - KEEP: Percentage that will be paid to the Delegate (0.xx format)
 - PAY_ADDRESSES: Reserve address (must be set, do not remove)
 
-Important: VOTER_SHARE and KEEP percentages combined must be 100% (1.00)
+IMPORTANT: VOTER_SHARE and KEEP percentages combined must be 100% (1.00)
 
 If you want to setup a pool page (leave it as is if you do not): 
 POOL_IP: Ip address of the node that is running the TBW script
