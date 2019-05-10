@@ -11,11 +11,11 @@ Some basic voting info :
 - One XQR equals a voting weight of 1. The more XQR you hold, the more voting weight you possess. If you split your XQR into multiple wallets, your voting power divides proportionally among those wallets. For example, if you have 1,000 XQR your voting power is equal to 1,000 XQR. If you split your XQR into two wallets, each will have a voting power of 500 XQR.
 - Each vote or un-vote comes with a fee. Each transaction in the XQR network costs a certain amount of XQR. With the implementation of dynamic fees, this cost has become adjustable. You can choose how much you want to spend for each specific transaction, even for voting and for un-voting.
 
-## Whom to Vote for?
+### Whom to Vote for?
 
 You can see the list of currently active delegates on the delegate monitor. There is also a calculator available. 
 
-## Casting a Vote
+### Casting a Vote
 
 Open the Qredit Desktop Wallet and select the wallet you wish to vote with. The wallet can be chosen from the menu on the right.
 

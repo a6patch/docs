@@ -7,7 +7,7 @@ For V2, we recommend using Ubuntu 18.04.
 Since syncing the node for the first time is very CPU intensive, we recommend to use a VPS with at least 2CPU's
 For an optimal P2P connection, we like all nodes to be located in Europe.
 
-## Setup
+### Setup
 
 1. Log in to your VPS
 
@@ -69,7 +69,7 @@ The last command will echo a command back. Copy, paste and run that command.
 
 That is it, you now have set up a new Relay Node on the Qredit Platform!
 
-## Forging Node
+### Forging Node
 If you want to become a Qredit delegate and start a Forging Node, please continue your setup [here](http://docs.qredit.network/delegates/forging-node-install.html)
 
 ::: TIP

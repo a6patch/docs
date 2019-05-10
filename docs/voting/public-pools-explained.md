@@ -5,7 +5,7 @@ title: Voting for a Public Pool
 
 This article will explain the basic principles of public pools, and the script that is used to reward voters for their support.
 
-##
+###
 If you are holding Qredit, you can earn some passive income with it. 
 The only thing you need to do for this, is withdraw your coins into a wallet and vote for a delegate. That is it, the delegates will take care of the rest.
 Every 8 seconds, a new block is forged and added to the blockchain by one of the 51 delegates. The delegates are awarded with 10XQR for every block they forge. Most delegates choose to share these rewards with their voters. Some nodes have private deals, while other pools are public.
@@ -13,7 +13,7 @@ Important to note, is that your funds are not locked when you are voting for a d
 You only need to cast your vote once. The wallet that you voted with, is then marked as "voting for delegate X" on the blockchain. When you do not want to vote for your delegate anymore, you can make an unvote transaction. 
 This article will explain the inner workings of the sharing mechanism of the delegates, and specifically those of the public pools.
 
-## What is True Block Weight
+### What is True Block Weight
 True Block Weight is a script that calculates the payout that is transferred to the voters. It basically checks every block that the delegate forges, which addresses voted for it, and with what amount. This ensures that every voter gets exactly the part of the reward he is entitled to.
 The amount of coins that are held in a wallet that is voting for a delegate, is called "voting weight".
 
@@ -23,7 +23,7 @@ The [SHARE] partition, gets spilt proportionately among all of the voting weight
 
 Because of the fact that the rewards are calculated per block, but the delegate pays out after a certain amount of blocks, the first payout (after voting), and the last payout (after unvoting), can be different than expected. After you have voted the full cycle of the delegate, this will normalize.
 
-## Example
+### Example
 This fictional delegate is sharing 80% of the rewards, daily. He has 2 voters, with 1000, and 3000 XQR respectively. 
 
 After the delegate forges a block (reward = 10XQR), the script starts calculating. 

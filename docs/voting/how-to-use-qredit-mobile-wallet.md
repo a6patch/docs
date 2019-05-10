@@ -13,7 +13,7 @@ Like any useful application, you will be able to find the Qredit Mobile Wallet a
 
 Download the wallet from the [App Store](http://qredit.io/go/ios) or the [Google Play Store](https://qredit.io/go/android).
 
-## Starting the Qredit Wallet
+### Starting the Qredit Wallet
 
 Once you load the application you will be met with this screen:
 
@@ -39,7 +39,7 @@ Your new profile must then be assigned a name and a network. Mainnet is the one 
 
 Once you have entered your name, you can sign in by touching the profile you created and by entering the PIN you created earlier. From there, you can click on the bottom-right button to either create or import a wallet. If you are importing a wallet, click [here](#importing-a-wallet). If you are creating a new wallet, continue reading.
 
-## Creating a wallet
+### Creating a wallet
 
 If you choose to generate a wallet, follow the prompts and you should be shown your shareable Public Address and your Secret Passphrase.
 
@@ -58,7 +58,7 @@ The next screen will show you the amount of XQR you have in your wallets, your s
 
 ![Qredit Mobile Wallet Balance](./assets/how-to-use-the-mobile-wallet/08_Qredit_Mobile_Balance.jpg)
 
-## Importing a wallet
+### Importing a wallet
 
 If you choose to import a wallet and follow the prompts, you will have three options to import your wallet: Using a QR Code, by putting in your secret passphrase or to add your address. Please note that the last option will make the wallet Read-only, since the app doesnt know the private key.
 
@@ -107,7 +107,7 @@ Once inside a wallet, you can view incoming and receiving transaction history, t
 
 ![Qredit Mobile Wallet Subsettings](./assets/how-to-use-the-mobile-wallet/12_Qredit_Mobile_Subsettings.jpg)
 
-## Voting
+### Voting
 
 To begin voting, we need XQR in our wallets. Once you have transferred XQR to your wallet, you will want to click on the wallet that was either imported or generated. Once the wallet has been selected, hit the triple bar and choose **_Delegates_**. This will show you the top 51 Active Delegates and the delegates on standby
 
@@ -122,6 +122,6 @@ Please note that the delegate in this screen was selected randomly, and is not a
 
 ![Qredit Mobile Select Delegate](./assets/how-to-use-the-mobile-wallet/15_Qredit_Mobile_Select_Delegate.jpg)
 
-## Conclusion
+### Conclusion
 
 Your Qredit Mobile Wallet is now ready for use! That's all it takes to install the Qredit wallet and vote for a Delegate of your choice.

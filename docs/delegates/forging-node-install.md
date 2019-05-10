@@ -5,11 +5,11 @@ title: Installing a Qredit Forging Node
 
 This guide explains how to turn a Relay node into a Forging node. It will pick up where [this guide ended](http://docs.qredit.network/nodes/relay-node-install.html)
 
-## Register your wallet as a Delegate
+### Register your wallet as a Delegate
 
 Work in Progress
 
-## Input your Secret
+### Input your Secret
 
 1) After the relay is caught up with current height, it’s time to enter the secret and start the forger. 
 IMPORTANT: Do not enter the brackets

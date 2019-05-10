@@ -18,7 +18,7 @@ Now, check if your node is catching up to the chain again. When your server reac
 ```
 ccontrol logs
 ```
-## 2) Check for Updates
+### 2) Check for Updates
 If restarting the node did not work, it could be that the network just had a mandatory update, and your node forked because of it. To see if there are any updates, run the following command. If the second command echoes that you already run the latest Core version, skip the third command and proceed to the next step.
 ```bash
 ccontrol update self
