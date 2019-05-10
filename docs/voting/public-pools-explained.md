@@ -1,3 +1,6 @@
+---
+title: Voting for a Public Pool
+---
 # Voting for a Public Pool
 
 This article will explain the basic principles of public pools, and the script that is used to reward voters for their support.
@@ -23,7 +26,7 @@ Because of the fact that the rewards are calculated per block, but the delegate 
 ## Example
 This fictional delegate is sharing 80% of the rewards, daily. He has 2 voters, with 1000, and 3000 XQR respectively. 
 
-After the delegate forges a block (reward=10XQR), the script starts calculating. 
+After the delegate forges a block (reward = 10XQR), the script starts calculating. 
 First, it looks at the [SHARE] & [RESERVE]. It takes 2 XQR for the delegate, and keeps 8XQR for the voters.
 Then, the script looks at the total amount of votes (= 4000), and the individual votes (= 1000 & 3000). It determines that voter 1 is entitled to 1/4th of the share, and voter 2 should get 3/4th.
 So voter 1 gets 8 x 0.25 = 2XQR, and voter 2 gets 8 x 0.75 = 6XQR.

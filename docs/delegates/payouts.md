@@ -2,11 +2,11 @@
 title: Automatic Sharing with TBW
 ---
 
-### Automatic Sharing with TBW
+# Automatic Sharing with TBW
 
 This is for setting up a TBW (true block weight) sharing delegate.  TBW is an accurate way of calculating rewards and it cannot be fooled with vote jumping like other methods. The TBW script we are using in this guide is written by delegate Goose.
 
-### Setup
+## Setup
 
 1. Update system to make sure Python version on the system is adequate (it has to be 3.6+)
 ```bash
@@ -68,7 +68,7 @@ CUSTOM_PORT = 5004
 POOL_VERSION = "original"
 ```
 
-### Fields
+## Fields
 - START_BLOCK: You can select block at which you want to start sharing rewards.  This is IMPORTANT to get right.  To start the rewards *right now*, just check the explorer for the current block height. 
 - NETWORK: Which network
 - DATABASE_USER: Usually your OS username (qredit)
@@ -123,7 +123,7 @@ bash tbw.sh
 -Select 7 (Start Pool only) (Optional; only if you configured it)
 ```
 
-### IMPORTANT
+## IMPORTANT
 
 If at any time you wish to change your share rate you must stop TBW, update your config.json and run the following command
 ```bash

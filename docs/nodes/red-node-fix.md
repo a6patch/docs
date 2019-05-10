@@ -2,10 +2,12 @@
 title: How to fix a Red Node
 ---
 
+# How to fix a Red Node
+
 Sometimes, a node can go offline or fork of from the main network. In that case, manual steps are required to get your node up and running again. This guide will list the steps that will solve most problems. The steps will increase from minor to the nucleair option, so should be taken in this order.
 This guide will assume you installed your node using core-control, since it is the recommended software to install a node
 
-### Step 1) Restart the Node.
+## Step 1) Restart the Node.
 
 In most cases, a simple restart does the trick. First, log in to your server and change to user qredit.
 
@@ -19,7 +21,7 @@ Now, check if your node is catching up to the chain again. When your server reac
 ccontrol logs
 ```
 
-### Step 2) Rollback the Blockchain
+## Step 2) Rollback the Blockchain
 
 When the first step didn't work, you should try to Rollback the chain a bit, to a point before your node forked. 
 
@@ -33,7 +35,7 @@ Now, the chain will roll back to your selected height, and start syncing from th
 ccontrol logs
 ```
 
-### Step 3) Restore from Snapshot
+## Step 3) Restore from Snapshot
 
 If that still didn't work, the next step is to restore your node using a snapshot. Every node runner is encouraged to keep multiple snapshots, so they can restore back to a point in time where the chain was still fine.
 If you don't have a (recent) snapshot, you can skip this step.
@@ -47,7 +49,7 @@ ccontrol snapshot restore
 
 Check the logs again, just as in the previous steps. Your node should be catching up from the moment that the snapshot was taken.
 
-### Step 4) Rebuild the Database
+## Step 4) Rebuild the Database
 
 This is the nucleair option. It will delete your copy of the blockchain and force a complete resync. This resync will take a couple of hours to complete, and all this time, your node will stay red. Use it as a last resort.
 ```

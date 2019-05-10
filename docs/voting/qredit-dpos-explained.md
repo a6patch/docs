@@ -1,4 +1,7 @@
-# Qredit DPoS explained
+---
+title: Qredit DPoS Explained
+---
+# Qredit DPoS Explained
 
 Qredit is built to utilize a consensus mechanism known as Delegated-Proof-of-Stake (DPoS). Since Delegated Proof-of-Stake is not as well known as other consensus mechanisms, like Proof-of-Work (PoW) and Proof-of-Stake (PoS), this article will explain the basics of DpoS.
 
