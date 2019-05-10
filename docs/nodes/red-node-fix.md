@@ -24,7 +24,7 @@ ccontrol logs
 
 When the first step didn't work, you should try to Rollback the chain a bit, to a point before your node forked. 
 
-Select a blockheight that was before your node forked off. Replace [BLOCKHEIGHT] for the chosen blockheight, without seperation dots. To check the current blockheight, check https://explorer.qredit.io
+Select a blockheight that was before your node forked off. Replace [BLOCKHEIGHT] for the chosen blockheight, without seperation dots. To check the current blockheight, check the [Explorer] (https://explorer.qredit.io)
 ```
 ccontrol rollback [BLOCKHEIGHT]
 ```
