@@ -124,8 +124,9 @@ bash tbw.sh
 
 ### Changing Share Percentage
 
-Important
+::: warning
 If at any time you wish to change your share rate you must stop TBW, update your config.json and run the following command
+:::
 ```bash
 cd ~/core2_tbw/core
 python3 tbw.py –shareChange

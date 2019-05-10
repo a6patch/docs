@@ -34,6 +34,6 @@ So voter 1 gets 8 x 0.25 = 2XQR, and voter 2 gets 8 x 0.75 = 6XQR.
 All of these amounts are stored at a local database. After every forged block, this calculation is done again and gets added to the database. 
 As soon as 211 blocks are forged, the payment part of the script gets triggered. It takes a look in the database, and collects all necessary data to create the transaction to the voters wallets, and the reserve wallet of the delegate.
 
-::: TIP
+::: tip
 Only active delegates (in the top 51) are forging on the Qredit Network. If you have voted for a delegate that is/became on standby (outside of the top 51), they will not share any rewards. So it is worth it to check the delegate status regularly, to ensure you are still receiving payouts.
 :::

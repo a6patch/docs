@@ -3,7 +3,7 @@ title: Installing a Qredit Forging Node
 ---
 # Installing a Qredit Forging Node
 
-This guide explains how to turn a Relay node into a Forging node. It will pick up where [this guide ended](http://docs.qredit.network/nodes/relay-node-install.html)
+This guide explains how to turn a Relay node into a Forging node. It will pick up where [this guide](http://docs.qredit.network/nodes/relay-node-install.html) ended.
 
 ### Register your wallet as a Delegate
 
