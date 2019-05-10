@@ -75,7 +75,7 @@ You can hit the triple bar in the top left corner, doing so will give you numero
 Choosing **_Wallets_** will place you at the main Qredit Wallet balance screen. After you reach the main Qredit Wallet balance screen, you can add another wallet, touch the triple bar on the top left corner, or choose an existing wallet to view even closer.
 If you want to add another wallet, push the blue circle we used earlier to create or import a wallet.
 If you hit the triple bar on the top left corner, you get numerous options where you can view and select:
-
+```
 - Main wallet balance screen
 - Vote for delegates
 - Change the peer to the network
@@ -89,7 +89,7 @@ If you hit the triple bar on the top left corner, you get numerous options where
 - Contacts
   - You can save contacts by name and Qredit address for quicker sending/receiving
 - Sign Out
-
+```
 ![Qredit Mobile Wallet Side Menu](./assets/how-to-use-the-mobile-wallet/10_Qredit_Mobile_Side_Menu.jpg) 
 ![Qredit Mobile Wallet Settings](./assets/how-to-use-the-mobile-wallet/11_Qredit_Mobile_Settings.jpg)
 
