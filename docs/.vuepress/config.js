@@ -52,7 +52,7 @@ const config = {
                 collapsable: false,
                 children: [
                     "/nodes/",
-                  "/nodes/node-install",
+                  "/nodes/relay-node-install",
                   "/nodes/red-node-fix",
                  ]
               }, {
@@ -60,6 +60,7 @@ const config = {
                 collapsable: false,
                 children: [
                     "/delegates/",
+                  "/delegates/forging-node-install",
                   "/delegates/payouts",
                  ]
               }, {
