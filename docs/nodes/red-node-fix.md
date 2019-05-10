@@ -1,7 +1,6 @@
 ---
 title: How to fix a Red Node
 ---
-
 # How to fix a Red Node
 
 Sometimes, a node can go offline or fork of from the main network. In that case, manual steps are required to get your node up and running again. This guide will list the steps that will solve most problems. The steps will increase from minor to the nucleair option, so should be taken in this order.

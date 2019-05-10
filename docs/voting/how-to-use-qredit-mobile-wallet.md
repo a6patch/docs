@@ -1,11 +1,7 @@
 ---
 title: How to Use the Qredit Mobile Wallet
 ---
-<<<<<<< HEAD
 # How to Use the Qredit Mobile Wallet
-=======
-
->>>>>>> 325fbd36638e6472e448abc0a243c666c99d4a80
 
 The Qredit Mobile Wallet is an easy to use, portable application. It enables you to manage all of your Qredit accounts and the XQR coins inside of it. It lets you send and receive transactions, vote for a delegate or register as a delegate. The wallet also provides an interface to add contacts by their address, which can save you some time when making transactions.
 

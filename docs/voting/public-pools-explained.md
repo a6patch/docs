@@ -1,11 +1,7 @@
 ---
 title: Voting for a Public Pool
 ---
-<<<<<<< HEAD
 # Voting for a Public Pool
-=======
-
->>>>>>> 325fbd36638e6472e448abc0a243c666c99d4a80
 
 This article will explain the basic principles of public pools, and the script that is used to reward voters for their support.
 

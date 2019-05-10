@@ -1,11 +1,7 @@
 ﻿---
 title: How to Vote/Un-Vote In the Qredit Desktop Wallet
 ---
-<<<<<<< HEAD
 # How to Vote/Un-Vote In the Qredit Desktop Wallet
-=======
-
->>>>>>> 325fbd36638e6472e448abc0a243c666c99d4a80
 
 You can use your XQR to vote or un-vote a delegate. In this guide, we’ll show you how to vote for a delegate, or un-vote a delegate if you want to change your vote.
 
