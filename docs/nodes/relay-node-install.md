@@ -72,7 +72,7 @@ That is it, you now have set up a new Relay Node on the Qredit Platform!
 ### Forging Node
 If you want to become a Qredit delegate and start a Forging Node, please continue your setup [here](http://docs.qredit.network/delegates/forging-node-install.html)
 
-::: TIP
+::: tip
 When you install a Qredit Full Node using CoreControl, it automatically sets an UFW Firewall, only allowing the neccesary ports for Qredit (which are port 22 for SSH access, and ports 4101-4108 for the Qredit processes). 
 When / if you are using the server for other things, please remember to open the necessary ports.
 :::
