@@ -19,7 +19,7 @@ The amount of coins that are held in a wallet that is voting for a delegate, is 
 
 After a certain amount of blocks (211 for daily payouts, 1477 for weekly payouts) , configured by the owner of the delegate, the script automatically pays out this calculated number.
 In the script, a delegate can choose the percentages he shares to his voters [SHARE] , and what part goes to his own wallet [RESERVE] . These numbers always add up to 100%.
-The [SHARE] partition, gets spilt proportionately among all of the voting weight contributed to the delegate. These percentages can be found easily in the explorer, labeled "supply". [Example] (https://explorer.qredit.io/#/wallets/QfA4zvUEZpLPrPRGAfeEU6M2upYpk8mDiR/voters/1)
+The [SHARE] partition, gets spilt proportionately among all of the voting weight contributed to the delegate. These percentages can be found easily in the explorer, labeled "supply". [Example](https://explorer.qredit.io/#/wallets/QfA4zvUEZpLPrPRGAfeEU6M2upYpk8mDiR/voters/1)
 
 Because of the fact that the rewards are calculated per block, but the delegate pays out after a certain amount of blocks, the first payout (after voting), and the last payout (after unvoting), can be different than expected. After you have voted the full cycle of the delegate, this will normalize.
 

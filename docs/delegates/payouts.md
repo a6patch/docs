@@ -12,7 +12,7 @@ This is for setting up a TBW (true block weight) sharing delegate.  TBW is an ac
 sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
 ```
 
-2. Switch to qredit user (or whatever user you used...we recommend qredit for consistancy)
+2. Switch to qredit user (or whatever user you used. We recommend qredit for consistancy)
 ```bash
 su - qredit
 ```
