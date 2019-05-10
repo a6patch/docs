@@ -86,7 +86,7 @@ POOL_VERSION = "original"
 - FIXED: Use this for fixed deals. This amount will be spread evenly over the set interval 
 - WHITELIST: Y or N. Enable payment to only whitelisted addresses
 - WHITELIST_ADDR: Comma separated list of addresses to allow voter payments to 
-- BLACKLIST: Opions to "block" (ignore) a wallet, or to "assign" the rewards to another wallet
+- BLACKLIST: Options to "block" (ignore) a wallet, or to "assign" the rewards to another wallet
 - BLACKLIST_ADDR: Comma separated list of addresses to block from voter payments 
 - BLACKLIST_ASSIGN: Address you want the blacklisted wallets share to go to
 - MIN_PAYMENT: Minimum threshold for payment

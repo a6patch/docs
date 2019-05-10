@@ -7,7 +7,7 @@ const DOCSPATH = "docs";
 
 const config = {
   title: "Qredit Network",
-  description: "The central knowledge hub for Qredit blockchain",
+  description: "The central knowledge hub for the Qredit Blockchain",
   plugins: [ 'tabs' ],
   head: [
     [
@@ -39,23 +39,29 @@ const config = {
     sidebar: { 
         '/':  [['/', 'Qredit Overview'],
               {
-                title: "Delegates",
-                collapsable: false,
-                children: [
-                    "/delegates/",
-                  "/delegates/node-install",
-                  "/delegates/red-node-fix",
-                  "/delegates/payouts",
-                    ]
-              }, {
                 title: "Voting",
                 collapsable: false,
                 children: [
-                  "/voting/",
+                    "/voting/",
                   "/voting/qredit-dpos-explained",
                   "/voting/how-to-vote-qredit-desktop-wallet",
                   "/voting/how-to-use-qredit-mobile-wallet",
                 ]
+              }, {
+                title: "Node Management",
+                collapsable: false,
+                children: [
+                    "/nodes/",
+                  "/nodes/node-install",
+                  "/nodes/red-node-fix",
+                 ]
+              }, {
+                title: "Delegates",
+                collapsable: false,
+                children: [
+                    "/delegates/",
+                  "/delegates/payouts",
+                 ]
               }, {
                 title: "Exchanges",
                 collapsable: false,
