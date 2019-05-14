@@ -16,7 +16,7 @@ For an optimal P2P connection, we like all nodes to be located in Europe.
 sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
 ```
 
-3. Enter the following commands, executing them one by one, to add new user
+3. Enter the following commands, executing them one by one, to add new user. We recommend using user qredit for consistency.
 ```
 sudo adduser qredit
 sudo usermod -a -G sudo qredit
@@ -27,14 +27,14 @@ sudo usermod -a -G sudo qredit
 su - qredit
 ```
 
-5. The following are core-control installation commands, execute them one by one
+5. The following are Core-Control installation commands, execute them one by one
 ``` 
 git clone https://github.com/qredit/core-control
 cd core-control
 ./ccontrol.sh install core
 ```
 
-After running CoreControl for the first time, the script creates an alias called "ccontrol". After doing a reboot, you can use this alias from within any directory on your server. After the reboot, log into your qredit user again
+After running Core-Control for the first time, the script creates an alias called "ccontrol". After doing a reboot, you can use this alias from within any directory on your server. After the reboot, log into your qredit user again
 ```
 sudo reboot
 su - qredit
@@ -73,6 +73,6 @@ That is it, you now have set up a new Relay Node on the Qredit Platform!
 If you want to become a Qredit delegate and start a Forging Node, please continue your setup [here](http://docs.qredit.network/delegates/forging-node-install.html)
 
 ::: tip
-When you install a Qredit Full Node using CoreControl, it automatically sets an UFW Firewall, only allowing the neccesary ports for Qredit (which are port 22 for SSH access, and ports 4101-4108 for the Qredit processes). 
+When you install a Qredit Full Node using Core-Control, it automatically sets an UFW Firewall, only allowing the neccesary ports for Qredit (which are port 22 for SSH access, and ports 4101-4108 for the Qredit processes). 
 When / if you are using the server for other things, please remember to open the necessary ports.
 :::

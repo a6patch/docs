@@ -44,6 +44,7 @@ const config = {
                 children: [
                     "/voting/",
                   "/voting/qredit-dpos-explained",
+                  "/voting/public-pools-explained",
                   "/voting/how-to-vote-qredit-desktop-wallet",
                   "/voting/how-to-use-qredit-mobile-wallet",
                 ]
