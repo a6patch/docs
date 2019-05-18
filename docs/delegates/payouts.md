@@ -17,14 +17,14 @@ sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -
 su - qredit
 ```
 
-3. Install the TBW script (Qredit currently running ARK-Core 2.3)
+3. Clone the TBW repository (Qredit currently running ARK-Core 2.3)
 ```bash
 git clone https://github.com/galperins4/core2_tbw
-cd ~/core2_tbw/core/config
 ```
 
 4. Open and fill out the config.json file
 ```bash
+cd ~/core2_tbw/core/config
 nano config
 ```
 
@@ -92,7 +92,9 @@ POOL_VERSION = "original"
 - KEEP: Percentage that will be paid to the Delegate (0.xx format)
 - PAY_ADDRESSES: Reserve address (must be set, do not remove)
 
-IMPORTANT: VOTER_SHARE and KEEP percentages combined must be 100% (1.00)
+::: warning
+Important: VOTER_SHARE and KEEP percentages combined must be 100% (1.00)
+:::
 
 If you want to setup a pool page (leave it as is if you do not): 
 POOL_IP: Ip address of the node that is running the TBW script
