@@ -131,6 +131,6 @@ If at any time you wish to change your share rate you must stop TBW, update your
 :::
 ```bash
 cd ~/core2_tbw/core
-python3 tbw.py –shareChange
+python3 tbw.py --shareChange
 ```
 The script will ask for the prior share percentage, enter it like this "0.75" if you are changing *from* 75%
