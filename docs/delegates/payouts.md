@@ -113,7 +113,7 @@ ENTER to confirm file name
 Cntrl+X
 ```
 
-6. After configuring the config.json file, you need to run the tbw script and install required packages
+6. After configuring the config file, you need to run the tbw script and install required packages
 ```bash
 cd ~/core2_tbw
 bash tbw.sh
@@ -127,7 +127,7 @@ bash tbw.sh
 ### Changing Share Percentage
 
 ::: warning
-If at any time you wish to change your share rate you must stop TBW, update your config.json and run the following command
+If at any time you wish to change your share rate you must stop TBW, update your config file and run the following command
 :::
 ```bash
 cd ~/core2_tbw/core
