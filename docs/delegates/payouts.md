@@ -89,21 +89,22 @@ POOL_VERSION = "original"
 - BLACKLIST_ADDR: Comma separated list of addresses to block from voter payments 
 - BLACKLIST_ASSIGN: Address you want the blacklisted wallets share to go to
 - MIN_PAYMENT: Minimum threshold for payment
-- KEEP: Percentage that will be paid to the Delegate (0.xx format)
-- PAY_ADDRESSES: Reserve address (must be set, do not remove)
+- KEEP: Percentage that will be paid to the Delegate (0.xx format). You can have multiple KEEP adresses listed, as long as you have the label the same as in the PAY_ADDRESSES variable. The label will appear in the smartbridge of the transaction
+- PAY_ADDRESSES: The addresses where you want the above mentioned KEEP percentage be sent to
 
 ::: warning
 Important: VOTER_SHARE and KEEP percentages combined must be 100% (1.00)
+You can have multiple KEEP addresses. One of them must be called reserve at all times
 :::
 
 If you want to setup a pool page (leave it as is if you do not): 
-POOL_IP: Ip address of the node that is running the TBW script
-EXPLORER: URL of the explorer you want to use
-COIN: Name of the coin that is being shared
-PROPOSAL: URL if you arew running a pool page
-POOL_PORT: Ports that are being used to access the database
-CUSTOM_PORT: 
-POOL_VERSION: User Interface of the poolpage. You can choose "original" and "geops"
+- POOL_IP: Ip address of the node that is running the TBW script
+- EXPLORER: URL of the explorer you want to use
+- COIN: Name of the coin that is being shared
+- PROPOSAL: URL if you arew running a pool page
+- POOL_PORT: Ports that are being used to access the database
+- CUSTOM_PORT: 
+- POOL_VERSION: User Interface of the poolpage. You can choose "original" and "geops"
 
 5. After editing all the necessary fields
 ```bash
