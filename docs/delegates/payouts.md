@@ -22,7 +22,7 @@ su - qredit
 git clone https://github.com/galperins4/core2_tbw
 ```
 
-4. Open and fill out the config.json file
+4. Open and fill out the config file
 ```bash
 cd ~/core2_tbw/core/config
 nano config
