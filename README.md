@@ -12,5 +12,6 @@ cd docs
 yarn install
 yarn dev
 ```
+yarn build
 
 
