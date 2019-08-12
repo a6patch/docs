@@ -43,7 +43,7 @@ ccontrol restart all
 
 
 ## List of currently supported Plugins
-This is a list of current supported core plugins, and a link to their respective github repositories.
+This is a list of current supported core plugins, and a link to their respective github repositories. Do you have a plugin you'd like to be added and available across all bridgechains? Contact Geops in the ARK Slack.
 
 ### Block-propagator, by delegate Alessio
 <https://github.com/alessiodf/block-propagator>
@@ -58,7 +58,7 @@ ccontrol plugin add block-propagator
 <https://github.com/alessiodf/round-monitor>
 
  The round-monitor adds a number of logging options. One of the main purposes of this plugin, is to determine the forging order of delegates in the current round, and to estimate how long is left until your delegate is due to forge. With this plugin configured, Core-Control can leverage a "Safe Restart", so that the forger does not miss any blocks during a restart.  Plugin logs multiple monitors how long is left until your delegate is due to forge in the current round.
- 
+
 ```ccontrol update core``` will automatically initiate a safe restart if the plugin is enabled and both Relay and Forger processes are running.
 ```bash
 ccontrol plugin add round-monitor
