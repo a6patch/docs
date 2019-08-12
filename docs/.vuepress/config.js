@@ -56,6 +56,7 @@ const config = {
                   "/nodes/relay-node-install",
                   "/nodes/red-node-fix",
                   "/nodes/secure-node-ssl",
+                  "/nodes/plugin-install",
                  ]
               }, {
                 title: "Delegates",

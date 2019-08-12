@@ -11,8 +11,8 @@ Special thanks to delegate Geops, for creating and maintaining the Core-Control 
 - A fully synced and up to date Qredit Node
 - The latest release of Core-Control
 ```bash
-ccontrol update core
 ccontrol update self
+ccontrol update core
 ```
 
 ### Managing Plugins
@@ -26,7 +26,7 @@ ccontrol plugin add "plugin-name"
 ```
 This command will install the plugin, and add it to the configuration files of the Core. 
 
-Please note, that the plugin that gets add is the default implementation. Most plugins will have extra customization options. To customize the plugin, it is best to go to the Github repository of the plugin. The Readme file there will have more detailed information on how to configure it further to your liking.
+Please note, that the plugin that gets installed is the default implementation. But, most plugins will have extra customization options. To customize the plugin, it is best to go to the Github repository of the plugin. The Readme file there will have more detailed information on how to configure it further to your liking.
 
 
 To update or remove a core plugin type the following commands:
@@ -57,9 +57,9 @@ ccontrol plugin add block-propagator
 ### Round-monitor, by delegate Alessio
 <https://github.com/alessiodf/round-monitor>
 
- The round-monitor adds a number of logging options. One of the main purposes of this plugin, is to determine the forging order of delegates in the current round, and to estimate how long is left until your delegate is due to forge. With this plugin configured, Core-Control can leverage a "Safe Restart", so that the forger does not miss any blocks during a restart.  Plugin logs multiple monitors how long is left until your delegate is due to forge in the current round.
+ The round-monitor adds a number of logging options. One of the main purposes of this plugin, is to determine the forging order of delegates in the current round, and to estimate how long is left until your delegate is due to forge. With this plugin configured, Core-Control can leverage a "Safe Restart", so that the forger does not miss any blocks during a restart. The plugin monitors how long is left until your delegate is due to forge in the current round, and schedule a restart at a time that will avoid missing your turn to forge. Use ```ccontrol restart safe``` for that.
 
-```ccontrol update core``` will automatically initiate a safe restart if the plugin is enabled and both Relay and Forger processes are running.
+```ccontrol update core``` will -after updating- automatically initiate a safe restart if the plugin is enabled and both Relay and Forger processes are running.
 ```bash
 ccontrol plugin add round-monitor
 ```
