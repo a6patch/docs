@@ -1,4 +1,7 @@
-# Securing a node with Nginx and Certbot
+---
+title: Securing a Node with Nginx and Certbot
+---
+# Securing a Node with Nginx and Certbot
 
 This guide will help you to enable SSL on your node, making all HTTP communication encrypted. We will make use of Nginx and Certbot.
 
@@ -8,12 +11,12 @@ This guide will help you to enable SSL on your node, making all HTTP communicati
 
 >PLEASE NOTE: This guide is made as easy as possible and does not go in-depth in regards to each individual topic. I highly recommend visiting the resources below to learn more about using Nginx and Certbot.
 
-## Prerequisites
-* Fully synced XQR relay node
+### Prerequisites
+* Fully synced Qredit relay node
 * Registered domain name
 * DNS records of domain pointing to the public IP address of your node (both with and without **www.**)
 
-## Step 1: Installing Nginx
+### Step 1: Installing Nginx
 Update local packages:
 ```
 sudo apt update
@@ -34,7 +37,7 @@ sudo ufw status
 ```
 Check if Nginx is running correctly by navigating to your node's public IP in a browser (http://your_server_ip). You should see the splash screen: **Welcome to nginx!**
 
-## Step 2: Installing Certbot
+### Step 2: Installing Certbot
 
 Add the repository:
 ```
@@ -50,7 +53,7 @@ Install Certbot Nginx package:
 sudo apt install python-certbot-nginx
 ```
 
-## Step 3: Allow HTTPS through firewall
+### Step 3: Allow HTTPS through firewall
 
 Allow HTTPS traffic:
 ```
@@ -61,7 +64,7 @@ Remove redundant HTTP profile:
 sudo ufw delete allow 'Nginx HTTP'
 ```
 
-## Step 4: Obtaining an SSL certificate
+### Step 4: Obtaining an SSL certificate
 
 Let certbot obtain the certificates for your domains (replace `qreditnode.com` with your domain):
 ```
@@ -74,7 +77,7 @@ sudo certbot --nginx -d qreditnode.com -d www.qreditnode.com
 
 Visit your domain via https to verify that everything works (for example: https://www.qreditnode.com/)
 
-# Step 5: Redirect your domain to the node's API endpoint
+### Step 5: Redirect your domain to the node's API endpoint
 
 Open the nginx config file with nano:
 ```
@@ -115,7 +118,7 @@ If the synthax is correct, reload Nginx to load the new configuration:
 ```
 sudo systemctl reload nginx
 ```
-## Done ✅
+### Done ✅
 Visit your domain via https and enjoy your secure API endpoint.
 
 #### Sources
