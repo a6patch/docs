@@ -3,7 +3,7 @@ title: Installing a Qredit Relay Node
 ---
 # Installing a Qredit Relay Node
 
-For V2, we recommend using Ubuntu 18.04. 
+For V2, we recommend a VPS, with Ubuntu 18.04 as its OS. 
 Since syncing the node for the first time is very CPU intensive, we recommend to use a VPS with at least 2CPU's
 For an optimal P2P connection, we like all nodes to be located in Europe.
 

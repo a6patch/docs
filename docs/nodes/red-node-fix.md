@@ -29,7 +29,7 @@ ccontrol update core
 ### 3) Rollback the Blockchain
 When the first steps didn't work, you should try to Rollback the chain a bit, to a point before your node forked. 
 
-Select a blockheight that was before your node forked off. Replace [BLOCKHEIGHT] for the chosen blockheight, without seperation dots. To check the current blockheight, check the [Explorer](https://explorer.qredit.io)
+Select a blockheight that was before your node forked off. Replace `[BLOCKHEIGHT]` for your chosen blockheight (without seperation dots). To check the current blockheight, check the [Explorer](https://explorer.qredit.io)
 ```
 ccontrol rollback [BLOCKHEIGHT]
 ```
@@ -60,4 +60,5 @@ ccontrol start all
 
 After that, your node should start the resync. As always, you can check the progress in the logs.
 
-In the rare that case all of the above steps did not work, it is smart to ask the Qredit Delegate Community if they have any ideas left to solve the offline status of your node.
+### 6) Ask for Help
+In the rare that case all of the above steps did not work, it is smart to ask the Qredit Delegate Community if they have any ideas left to solve the offline status of your node. Best place for this is either the Qredit Telegram channel, or the Hodler Enterprise Discord server
