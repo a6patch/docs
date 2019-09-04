@@ -40,7 +40,7 @@ sudo reboot
 su - qredit
 ```
 
-*OPTIONAL* If you have a locally maintained snapshot, this is the time to restore it. Place the snapshot-folder in `~/.local/qredit-core/mainnet/snapshots`, with the correct format (which is `1-blockheight at time of the snapshot`). 
+*OPTIONAL* If you have a locally maintained snapshot, this is the time to restore it. Place the snapshot-folder in `~/.local/share/qredit-core/mainnet/snapshots`, with the correct format (which is `1-blockheight at time of the snapshot`). 
 Then, run this command:
 ```
 ccontrol snapshot restore

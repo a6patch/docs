@@ -42,7 +42,7 @@ ccontrol logs
 If that still didn't work, the next step is to restore your node using a snapshot. Every node runner is encouraged to keep multiple snapshots, so they can restore back to a point in time where the chain was still fine.
 If you don't have a (recent) snapshot, you can skip this step.
 
-Make sure your snapshot-folder is in the correct directory (`~/.local/qredit-core/mainnet/snapshots`) and has the correct name (which is `1-blockheight at time of the snapshot`)
+Make sure your snapshot-folder is in the correct directory (`~/.local/share/qredit-core/mainnet/snapshots`) and has the correct name (which is `1-blockheight at time of the snapshot`)
 
 Then, run the following command;
 ```
