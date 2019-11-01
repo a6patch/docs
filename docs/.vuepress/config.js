@@ -37,7 +37,7 @@ const config = {
       link: 'https://qredit.network'
     }],
     sidebar: { 
-        '/':  [['/', 'Qredit Overview'],
+        '/':  [['/', 'Introduction to Qredit'],
               {
                 title: "Voting",
                 collapsable: false,
@@ -63,6 +63,7 @@ const config = {
                 collapsable: false,
                 children: [
                     "/delegates/",
+                  "/nodes/relay-node-install",  
                   "/delegates/forging-node-install",
                   "/delegates/payouts",
                  ]

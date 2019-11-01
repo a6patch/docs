@@ -1,7 +1,7 @@
 ---
-title: How to Install Custom Plugins on a Qredit Node
+title: Installing Custom Plugins on a Qredit Node
 ---
-# How to Install Custom Plugins on a Qredit Node using Core-Control
+# Installing Custom Plugins on a Qredit Node using Core-Control
 
 Qredit supports the installation of custom plugins to be add to the Qredit Core. Since Core-Control version 2.5.1, it has become real easy to add these custom plugins to the Qredit Core. This guide will explain how to do that!
 

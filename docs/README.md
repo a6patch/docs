@@ -1,6 +1,8 @@
 ---
-title: Overview of Qredit Blockchain
+title: Introduction
 ---
-# Overview of Qredit Blockchain
+# Introduction to the Qredit Blockchain
 
-Qredit overview .....
+Welcome to the Qredit.network Docs!
+
+......
