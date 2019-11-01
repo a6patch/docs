@@ -73,12 +73,6 @@ const config = {
                 children: [
                   "/exchanges/",
                 ]
-              }, {
-                title: "Merchants",
-                collapsable: false,
-                children: [
-                  "/merchants/",
-                ]
               }],
       displayAllHeaders: false
     },
