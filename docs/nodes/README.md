@@ -9,7 +9,7 @@ This section of the docs will focus on running a Node on the Qredit Network. Rea
 
 Use the sidebar to navigate this section, or follow the links below:
 
-- [Installing a Relay Node](/nodes/relay-node-install.html/)
-- [How to Fix a Red Node](/node/red-node-fix.html)
+- [Installing a Relay Node](/nodes/relay-node-install.html)
+- [How to Fix a Red Node](/nodes/red-node-fix.html)
 - [Securing a Node with Nginx and Certbot](/nodes/secure-node-ssl.html)
 - [Installing Custom Plugins on a Qredit Node](/nodes/plugin-install.html)
