@@ -63,3 +63,12 @@ ccontrol plugin add block-propagator
 ```bash
 ccontrol plugin add round-monitor
 ```
+
+### Productivity-statistics, by delegate Alessio
+<https://github.com/alessiodf/productivity-statistics>
+
+The Productivity-statistics plugin augments the delegates API endpoints within Core for ARK and ARK-powered blockchains by including statistics to display the number of missed rounds and slots for each delegate, along with a productivity score (forged / (forged + missed)). The statistics are generated and stored in a separate SQLite3 database. 
+
+```bash
+ccontrol plugin add productivity-statistics
+```
