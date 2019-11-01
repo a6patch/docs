@@ -5,7 +5,7 @@ title: Voting for a Public Pool
 
 This article will explain the basic principles of public pools, and the script that is used to reward voters for their support.
 
-###
+### Introduction
 If you are holding Qredit, you can earn some passive income with it. 
 The only thing you need to do for this, is withdraw your coins into a wallet and vote for a delegate. That is it, the delegates will take care of the rest.
 Every 8 seconds, a new block is forged and added to the blockchain by one of the 51 delegates. The delegates are awarded with 10XQR for every block they forge. Most delegates choose to share these rewards with their voters. Some nodes have private deals, while other pools are public.
