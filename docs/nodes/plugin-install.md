@@ -34,6 +34,7 @@ To update or remove a core plugin type the following commands:
 ccontrol plugin update "plugin-name"
 ccontrol plugin remove "plugin-name"
 ```
+
 ::: tip
 After you change anything plugin related, you need to restart the core for the changes to take effect
 ```bash

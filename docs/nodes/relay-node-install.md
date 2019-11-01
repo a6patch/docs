@@ -61,7 +61,11 @@ ccontrol logs relay
 ccontrol snapshot create
 ```
 
-10. If your want your all of your (currently running) pm2 processes to start up in case your server (accidently) reboots, run the following commands:
+9. If your want your all of your (currently running) pm2 processes to start up in case your server (accidently) reboots, run the following commands:
+::: tip
+When installing a node using core-control, this step is performed automatically
+:::
+
 ```
 pm2 save
 pm2 startup
