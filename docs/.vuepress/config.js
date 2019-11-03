@@ -68,10 +68,20 @@ const config = {
                   "/delegates/payouts",
                  ]
               }, {
+                title: "QAE",
+                collapsable: false,
+                 children: [
+                    "/qae/",
+                  "/qae/documentation",  
+                  "/qae/createtoken",
+                 ]
+              }, {
                 title: "Exchanges",
                 collapsable: false,
                 children: [
                   "/exchanges/",
+                "/exchanges/public-api",
+                "/exchanges/rate-limiting",
                 ]
               }],
       displayAllHeaders: false
