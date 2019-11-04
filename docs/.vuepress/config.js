@@ -72,7 +72,8 @@ const config = {
                 collapsable: false,
                  children: [
                     "/qae/",
-                  "/qae/documentation",  
+                  "/qae/documentation",
+                  "/qae/sendtoken",
                   "/qae/createtoken",
                  ]
               }, {
