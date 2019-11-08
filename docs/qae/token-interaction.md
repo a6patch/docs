@@ -17,8 +17,7 @@ The cost of a Genesis Transaction, is 1.000,02 XQR. Make sure you have this in y
 First, go to the QAE Interaction Screen, and select ```create new token (GENESIS)```.
 
 ![QAE Interaction Screen](./assets/token-interaction/token-qae-button.png)
-![QAE Interaction Screen](./assets/token-interaction/token-qae-button2.png)
-![Select Transaction Type](./assets/token-interaction/select-tx-type.png)
+![Select GENESIS Transaction Type](./assets/token-interaction/genesis-select.png)
 
 A form will appear, where you can input your Token specific information. 
 
@@ -30,20 +29,43 @@ Token Symbol (Ticker)                   The ticker or abbreviation you  want you
 Token Amount                            The amount of Tokens you want to create. This will be your total supply
 Token Decimals                          The amount of decimals in what your tokens can be divided
 Token URI (optional)                    ?
-Token Note (optional)                   This is a note that you can send with your transaction. Similair to the Qredit Smartbridge
+Token Note (optional)                   This is a note that you can send with your transaction. Similar to the Qredit Smartbridge
 Passphrase (or Encryption Password)     The Private key of the wallet. This is used to sign the transaction
 ```
 
 When you have filled in and double checked all your information, press ```Next```. You will go to a confirmation screen. Make sure everything is filled in as you wish. After confirming, your transaction will be made, and can not be changed. If all is correct, select ```Send 1000.02 XQR```. Now, your transaction will be send to the Qredit Blockchain. 
 
-Within a few minutes, your transaction will be confirmed. You will now have your freshly minted Tokens into your wallet!
+![Genesis Confirmation Screen](./assets/token-interaction/genesis-confirm.png)
+
+After a few confirmation (usually within minutes), your transaction will be confirmed. You will now have your freshly minted Tokens into your wallet!
 
 
 ## Sending a QAE token (SEND transaction)
-![QAE Interaction Screen](./assets/token-interaction/token-qae-button.png)
-![Select Transaction Type](./assets/token-interaction/select-tx-type.png)
-![Send Token-QAE Button](./assets/token-interaction/send-form.png)
-![Confirmation Screen](./assets/token-interaction/send-confirm.png)
 
+First, go to the QAE Interaction Screen, and select ```Send token (SEND)```.
+
+![QAE Interaction Screen](./assets/token-interaction/token-qae-button.png)
+![Select SEND Transaction Type](./assets/token-interaction/send-select.png)
+
+A form will appear, where you can input which Token you want to send (select the dropdown to see all tokens that are present in the wallet). 
+
+![Send Token-QAE Button](./assets/token-interaction/send-form.png)
+
+```json
+Select Token                            Which Token you want to send. Select the dropdown to see all tokens that are present in the wallet
+Token Amount                            The amount of Tokens you want to transfer
+Token Note (optional)                   This is a note that you can send with your transaction. Similar to the Qredit Smartbridge
+Recipient                               The Address of the person you want to send your tokens to
+Passphrase (or Encryption Password)     The Private key of the wallet. This is used to sign the transaction
+```
+
+When you have filled in and double checked all your information, press ```Next```. You will go to a confirmation screen. Make sure everything is filled in as you wish. After confirming, your transaction will be made, and can not be changed. If all is correct, select ```Send 0.02000001 XQR```. Now, your transaction will be send to the Qredit Blockchain. 
+
+![Send Confirmation Screen](./assets/token-interaction/send-confirm.png)
+
+After a few confirmations (usually within minutes), your token wallet will be deducted, and the Recipient of the transaction will see his token balance increased!
 
 ## Burning a QAE token (BURN transaction)
+
+
+
