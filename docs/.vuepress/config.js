@@ -72,9 +72,8 @@ const config = {
                 collapsable: false,
                  children: [
                     "/qae/",
-                  "/qae/documentation",
-                  "/qae/sendtoken",
-                  "/qae/createtoken",
+                  "/qae/qae-documentation",
+                  "/qae/token-interaction",
                  ]
               }, {
                 title: "Exchanges",

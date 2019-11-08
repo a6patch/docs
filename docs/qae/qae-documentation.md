@@ -1,6 +1,6 @@
 ---
 title: QAE documentation
 ---
-# QAE documentation
+# QAE API documentation
 
 Coming soon...
