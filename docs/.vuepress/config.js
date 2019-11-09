@@ -8,7 +8,7 @@ const DOCSPATH = "docs";
 const config = {
   title: "Qredit Network",
   description: "The central knowledge hub for the Qredit Blockchain",
-  plugins: [ 'tabs' ],
+  plugins: ['tabs','@vuepress/medium-zoom'],
   head: [
     [
       "link",
