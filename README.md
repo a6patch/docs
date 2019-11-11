@@ -1,6 +1,6 @@
 # Qredit Docs
 
-
+1
 
 > Official documentation for the Qredit blockchain powered by VuePress.
 
