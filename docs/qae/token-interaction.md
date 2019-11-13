@@ -4,6 +4,7 @@ title: How to Interact with QAE, using the Qredit Desktop Wallet
 # How to Interact with QAE, using the Qredit Desktop Wallet
 
 This guide will learn you how to interact with QAE tokens using the Desktop Wallet. We will explain and show you the GENESIS, SEND and BURN transaction, all available to use with the Desktop Wallet.
+Before creating a token, you need to install the Desktop wallet, and configure that first. If you are not exactly sure how, click [here](/voting/how-to-vote-qredit-desktop-wallet.html).
 
 ## Creating a QAE token (GENESIS transaction)
 If you want to create your own token on the Qredit Network, you first need to do a GENESIS transaction. In this transaction you register your token, and your token specific settings onto the blockchain. 
@@ -11,7 +12,7 @@ If you want to create your own token on the Qredit Network, you first need to do
 :::tip
 The address you are using to make the transaction with, will be marked as the OWNER of the contract. This is important for the more advanced contract interactions, that are not (yet) supported by the desktop wallet. 
 
-The cost of a Genesis Transaction, is 1.000,02 XQR. Make sure you have this in your wallet, before continueing.
+The cost of a Genesis Transaction, is 1000.02 XQR. Make sure you have this in your wallet, before continuing.
 :::
 
 First, go to the QAE Interaction Screen, and select ```create new token (GENESIS)```.
